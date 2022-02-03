@@ -11,7 +11,7 @@ Introduction to tags and autotext commonly used in html. <!---htmlで良く使�
 
 ## Tags when writing the body <!---本文を書く時のタグ-->
 1. Declarations required to write html  sentences <!---htmlの文章の宣言-->
-```
+```html
     <html>
         <body>
         "Where to write a sentence"
