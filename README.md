@@ -21,57 +21,57 @@ Introduction to tags and autotext commonly used in html. <!---htmlで良く使�
 As mentioned above, you can start writing sentences with <html> and <body>. <!---前述のようにすれば文が書き始められる-->
 
 2. A tag that can change the size of the characters used in headings, etc<!---見出しの文字サイズのタグ-->
-```
+```html
     <h1> "Where to write a sentence" </h1>
 ```
-There are six types of tags ＜h1＞ ＜h2＞ ＜h3＞ ＜h4＞ ＜h5＞ ＜h6＞in , and the characters grow as the number decreases. <!---<h1>~<h6>まであり、数字が小さくなるにつれて文字がでかくなる-->
+There are six types of tags '<h1><h2><h3><h4><h5><h6>'in , and the characters grow as the number decreases. <!---<h1>~<h6>まであり、数字が小さくなるにつれて文字がでかくなる-->
 
 3. Tags used when writing body text <!---本文を書くときに使うタグ-->
-```
+```html
     <p> "Where to write a sentence" </p>
 ```
 Since paragraphs can be separated by using <p>, it is used when writing the main text. <!---<p>で段落を区切れるから本文を書くときに使用される-->
 
 4. Tags to use when line breaks <!---改行に使うタグ-->
-```
+```html
     <br>
 ```
 If you write at the end or between sentences, the statement becomes a newline. <!---文の最後や間に書くことで改行することが出来る-->
 <br>
 
 ## Link to "css" <!---cssへのリンク-->
-```
+```html
     <link href="./CSSfilename.css" rel="stylesheet" type="text/css" />
 ```
 Convert "./CSSfilename.css" to the name of the css file. <!---"./CSSfilename.css"をCSSのファイル名に変換する-->
 <br>
 
 ## How to make a list <!---リストの作り方-->
-To create a list, you must first enclose the text you want to list with a ＜li＞ tag. <!---リストを作るには<li>タグを使う-->
+To create a list, you must first enclose the text you want to list with a '<li>' tag. <!---リストを作るには<li>タグを使う-->
 
 1. List of bullet points <!---箇条書きのリスト-->
-```
+```html
 <ul>
 <li>"Where to write a sentence"</li>
 <li>"Where to write a sentence"</li>
 <li>"Where to write a sentence"</li>
 </ul>
 ```
-Use ＜ul＞ for list of bulleted lists. <!---箇条書きのリストには<ul>を使用する-->
+Use '<ul>' for list of bulleted lists. <!---箇条書きのリストには<ul>を使用する-->
 
 2. List with numbers <!---数字付きののリスト-->
-```
+```html
 <ol>
 <li>"Where to write a sentence"</li>
 <li>"Where to write a sentence"</li>
 <li>"Where to write a sentence"</li>
 </ol>
 ```
-List with numbers uses ＜ol＞. <!---数字付きののリストには<ol>を使う-->
+List with numbers uses '<ol>'. <!---数字付きののリストには<ol>を使う-->
 <br>
 
 ## Pasting images <!---画像の貼り付け-->
-```
+```html
     <img src="filename" alt="Description of the image" width="100" height="50">
 ```
 Rename "filename" to the image file and write the description of the image in "Description of the image". <!---"filename" を画像のファイル名に変更し、画像の説明を "Description of the image"に書き込みます。-->
