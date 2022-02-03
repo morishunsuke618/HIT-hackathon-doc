@@ -24,7 +24,7 @@ As mentioned above, you can start writing sentences with <html> and <body>. <!--
 ```html
     <h1> "Where to write a sentence" </h1>
 ```
-There are six types of tags '<h1><h2><h3><h4><h5><h6>'in , and the characters grow as the number decreases. <!---<h1>~<h6>まであり、数字が小さくなるにつれて文字がでかくなる-->
+There are six types of tags `<h1><h2><h3><h4><h5><h6>`in , and the characters grow as the number decreases. <!---<h1>~<h6>まであり、数字が小さくなるにつれて文字がでかくなる-->
 
 3. Tags used when writing body text <!---本文を書くときに使うタグ-->
 ```html
@@ -47,7 +47,7 @@ Convert "./CSSfilename.css" to the name of the css file. <!---"./CSSfilename.css
 <br>
 
 ## How to make a list <!---リストの作り方-->
-To create a list, you must first enclose the text you want to list with a '<li>' tag. <!---リストを作るには<li>タグを使う-->
+To create a list, you must first enclose the text you want to list with a `<li>` tag. <!---リストを作るには<li>タグを使う-->
 
 1. List of bullet points <!---箇条書きのリスト-->
 ```html
@@ -57,7 +57,7 @@ To create a list, you must first enclose the text you want to list with a '<li>'
 <li>"Where to write a sentence"</li>
 </ul>
 ```
-Use '<ul>' for list of bulleted lists. <!---箇条書きのリストには<ul>を使用する-->
+Use `<ul>` for list of bulleted lists. <!---箇条書きのリストには<ul>を使用する-->
 
 2. List with numbers <!---数字付きののリスト-->
 ```html
@@ -67,7 +67,7 @@ Use '<ul>' for list of bulleted lists. <!---箇条書きのリストには<ul>�
 <li>"Where to write a sentence"</li>
 </ol>
 ```
-List with numbers uses '<ol>'. <!---数字付きののリストには<ol>を使う-->
+List with numbers uses `<ol>`. <!---数字付きののリストには<ol>を使う-->
 <br>
 
 ## Pasting images <!---画像の貼り付け-->
